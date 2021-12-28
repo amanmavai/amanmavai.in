@@ -1,0 +1,27 @@
+:root {
+  --theme-primary: #fff;
+  --theme-secondary: rgba(14, 24, 42, 0.9);
+  --theme-tertiary: #9ae6b4;
+  --theme-imgurl: url("https://images.unsplash.com/photo-1602255193483-cd2ab909c421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&h=320&q=80");
+}
+
+/* first theme for app instance1 */
+.instance1 {
+  --theme-primary: indigo;
+  --theme-secondary: #fff;
+  --theme-tertiary: rgba(14, 24, 42, 0.9);
+  --theme-imgurl: url("https://images.unsplash.com/photo-1512636903080-3f10098c3e6e?ixlib=rb-1.2.1&auto=format&fit=crop&w=320&h=320&q=80");
+}
+
+/* second theme for app instance2 */
+.instance2 {
+  --theme-primary: blue;
+  --theme-secondary: rgb(236, 198, 198);
+  --theme-tertiary: #e7fabc;
+  --theme-imgurl: url("https://images.unsplash.com/photo-1516659277520-e85ae42ee4c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=320&h=320&q=80");
+}
+
+/* you can also switch images based on css properties */
+.theme-img-bg {
+  background: var(--theme-imgurl) no-repeat;
+}

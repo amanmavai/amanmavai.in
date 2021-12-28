@@ -1,0 +1,27 @@
+/* TAILWIND_BASE */
+@import "tailwindcss/base";
+/* END_TAILWIND_BASE */
+
+/* CUSTOM_TAILWIND_BASE */
+@import "./custom-base-styles.css";
+/* END_CUSTOM_TAILWIND_BASE */
+
+/* TAILWIND_COMPONENTS */
+@import "tailwindcss/components";
+/* END_TAILWIND_COMPONENTS */
+
+/* CUSTOM_COMPONENTS */
+@import "./custom-components.css";
+/* END_CUSTOM_COMPONENTS */
+
+/* TAILWIND_UTILITIES */
+@import "tailwindcss/utilities";
+/* END_TAILWIND_UTILITIES */
+
+/* CUSTOM_UTILITIES */
+@import "./custom-utilities.css";
+/* END_CUSTOM_UTILITIES */
+
+/* CUSTOM_THEME_STYLES */
+@import "./custom-theme-styles.css";
+/* END_CUSTOM_THEME_STYLES */
