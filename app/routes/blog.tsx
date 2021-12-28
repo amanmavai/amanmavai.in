@@ -2,9 +2,6 @@ import { useLoaderData, Link } from "remix";
 
 import * as postA from "./posts/learn-auth.mdx";
 import * as postB from "./posts/learn-docker.mdx";
-import * as postC from "./posts/first.mdx";
-import * as postD from "./posts/second.mdx";
-import * as postE from "./posts/third.mdx";
 
 function postFromModule(mod: any) {
   return {
@@ -18,13 +15,7 @@ export function loader() {
   // Referencing the posts here instead of in the Index component down below
   // lets us avoid bundling the actual posts themselves in the bundle for the
   // index page.
-  return [
-    postFromModule(postA),
-    postFromModule(postB),
-    postFromModule(postC),
-    postFromModule(postD),
-    postFromModule(postE),
-  ];
+  return [postFromModule(postA), postFromModule(postB)];
 }
 
 export default function Blog() {
