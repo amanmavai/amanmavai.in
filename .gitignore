@@ -6,3 +6,14 @@ node_modules
 
 public/build
 api/_build
+
+.env.local
+
+.DS_Store
+/coverage
+
+/app/styles/**/*.css
+
+/cypress/videos
+/cypress/screenshots
+*.local.*
