@@ -4,8 +4,11 @@ import cn from "classnames";
 import globalStylesUrl from "~/styles/index.css";
 import MobileMenu, { links as mobileMenuLinks } from "./components/MobileMenu";
 
-export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+export let meta: MetaFunction = () => {
+  return {
+    title: "Aman Mavai – Developer, writer, creator.",
+    description: `Front-end developer, JavaScript enthusiast.`,
+  };
 };
 
 // https://remix.run/api/app#links
