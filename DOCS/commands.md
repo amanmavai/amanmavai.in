@@ -41,4 +41,8 @@ $ yarn add -D rimraf
 //4. add important libs
 $ yarn add classnames tiny-invariant front-matter marked
 $ yarn add -D @types/marked
+
+//5. mdx packages
+$ yarn add rehype-highlight remark-toc
+$ yarn add use-delayed-render
 ```
