@@ -76,7 +76,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <header className="remix-app__header sm:col-start-2 sm:col-end-3">
         <Header />
       </header>
-      <div className="sm:col-start-2 sm:col-end-3 mt-5">{children}</div>
+      <div className="sm:col-start-2 sm:col-end-3 mt-10 px-3">{children}</div>
       <footer className="remix-app__footer sm:col-start-2 sm:col-end-3 h-12 mt-5">
         <Footer />
       </footer>
