@@ -18,7 +18,7 @@ export default function Index() {
         <p className="text-gray-600 dark:text-gray-400 mb-16">Helping developers figure out web development.</p>
       </div>
 
-      <div className="w-[80px] h-[80px] sm:w-[150px] sm:h-[150px] mb-8 sm:mb-0">
+      <div className="w-20 h-20 sm:w-36 sm:h-36 mb-8 sm:mb-0">
         <img
           alt="Aman Mavai"
           height={150}
