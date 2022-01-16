@@ -52,7 +52,7 @@ export default function Index() {
               <Link to={`/posts/${post.slug}`} className="">
                 <div
                   key={post.title}
-                  className="w-52 h-36 rounded-md p-5 text-xl tracking-widest bg-gradient-to-r from-[#6EE7B7] via-[#639bf5] to-[#ad69ec]"
+                  className="w-48 h-36 rounded-md p-5 text-xl tracking-widest border-4 border-solid border-teal-200"
                 >
                   {post.description}
                 </div>
